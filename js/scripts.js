@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     $("#confirm").show();
     $("body").removeClass();
-    $("#confirm").addClass("blue-background")
+    $("#confirmbox").addClass("blue-background")
 
     $("body").addClass("narwhals")
     event.preventDefault();

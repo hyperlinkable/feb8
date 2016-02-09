@@ -4,6 +4,9 @@
 
 #confirm {
   display:none;
+}
+
+#confirmbox {
   font-size: 18pt;
   margin-top: 20%;
   border-color: black;
@@ -36,4 +39,12 @@
 
 #scheduling {
   font-size: 125%;
+}
+
+.video {
+  margin-top: 20px;
+  align-items:center;
+  justify-content: center;
+  display:flex;
+  /* we found out about this on http://howtocenterincss.com/ */
 }
