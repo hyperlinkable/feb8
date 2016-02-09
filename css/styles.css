@@ -1,16 +1,29 @@
-.appointment {
-  border-bottom-width: thick;
+.make_appt {
+  margin:auto;
 }
 
 #confirm {
   display:none;
-  color:white;
   font-size: 18pt;
-  margin-top: 30px;
+  margin-top: 20%;
+  border-color: black;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 25px;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
-.green-background {
-  background-color: green;
+#confirm h1 {
+ text-align: center;
+ color: #cc66ff;
+}
+
+.blue-background {
+  background-color: #e5ffff;
+}
+
+.narwhals {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/564x/9a/e0/0c/9ae00c43f84fcc7ff18cc18bd5ed1711.jpg");
 }
 
 .form-group {
@@ -21,4 +34,6 @@
   width:200px;
 }
 
-#timestart
+#scheduling {
+  font-size: 125%;
+}

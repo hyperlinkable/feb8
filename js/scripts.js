@@ -16,7 +16,11 @@ $(document).ready(function() {
 
     $("#confirm").show();
     $("body").removeClass();
-    $("#confirm").addClass("green-background")
+    $("#confirm").addClass("blue-background")
+
+    $("body").addClass("narwhals")
     event.preventDefault();
+
+    $(".make_appt").hide();
   });
 })

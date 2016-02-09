@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.0.js"></script>
@@ -9,6 +10,7 @@
   </head>
   <body>
     <div class="container">
+      <div class="make_appt">
           <h1>MAKE AN APPOINTMENT</h1>
           <div id="blanks">
             <form>
@@ -39,17 +41,17 @@
                 <textarea id="reason" class="form-control" rows="3"></textarea>
               </div>
 
-              <button type="submit" class="btn">CLICK TO CONFIRM</button>
+              <button type="submit" class="btn btn-warning">CLICK TO CONFIRM</button>
             </form>
           </div>
+        </div>
 
           <div id="confirm">
           <div class="container">
             <h1>APPOINTMENT CONFIRMATION</h1>
-            <ul>
+            <ul class="list-unstyled">
               <li>Thank you for confirming your <span class="reason"></span> appointment, <span class="name"></span>!</li>
-              <li>Your appointment is on <span class="date"></span></li>
-              <li>From <span class="timestart"></span> to <span class="timeend"></span></li>
+              <li id="scheduling">Your appointment is on <span class="date"></span> from <span class="timestart"></span> to <span class="timeend"></span></li>
             </ul>
           </div>
         </div>
