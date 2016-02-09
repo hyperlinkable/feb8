@@ -1,21 +1,22 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    var person1Input = $("input#person1").val();
-    var person2Input = $("input#person2").val();
-    var animalInput = $("input#animal").val();
-    var exclamationInput = $("input#exclamation").val();
-    var verbInput = $("input#verb").val();
-    var nounInput = $("input#noun").val();
+    var nameInput = $("input#name").val();
+    var dateInput = $("input#date").val();
+    var timestartInput = $("input#timestart").val();
+    var timeendInput = $("input#timeend").val();
+    var reasonInput = $("textarea#reason").val();
 
-    $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
-    $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
 
-    $("#story").show();
+    $(".name").text(nameInput);
+    $(".date").text(dateInput);
+    $(".timestart").text(timestartInput);
+    $(".timeend").text(timeendInput);
+    $(".reason").text(reasonInput);
 
+
+    $("#confirm").show();
+    $("body").removeClass();
+    $("#confirm").addClass("green-background")
     event.preventDefault();
   });
 })
